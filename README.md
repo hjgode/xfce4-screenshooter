@@ -1,5 +1,11 @@
 [![License](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://gitlab.xfce.org/apps/xfce4-screenshooter/-/blob/master/COPYING)
 
+# This is a mod of xfce4-screenshooter
+
+Customers already posted an issue with screenshooter is launched mayn times if you press and hold or press multiple times the Print assigned keyboard shortcut.
+
+The issue was not accepted as an issue but that behavior was too bad for me and I rewrote the main.c to allow only one instance. The code is not perfect but works for me.
+
 # xfce4-screenshooter
 
 Xfce4-screenshooter allows you to capture the entire screen, the active
